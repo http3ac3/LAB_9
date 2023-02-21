@@ -41,40 +41,45 @@ namespace LAB_9
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Location = new System.Drawing.Point(10, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 17);
+            this.label1.Size = new System.Drawing.Size(90, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Открытый текст";
             // 
             // OpenTextTB
             // 
-            this.OpenTextTB.Location = new System.Drawing.Point(135, 10);
+            this.OpenTextTB.Location = new System.Drawing.Point(101, 8);
+            this.OpenTextTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.OpenTextTB.Name = "OpenTextTB";
-            this.OpenTextTB.Size = new System.Drawing.Size(315, 22);
+            this.OpenTextTB.Size = new System.Drawing.Size(237, 20);
             this.OpenTextTB.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 41);
+            this.label2.Location = new System.Drawing.Point(10, 33);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 17);
+            this.label2.Size = new System.Drawing.Size(90, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Ключевое слово";
             // 
             // KeyWordTB
             // 
-            this.KeyWordTB.Location = new System.Drawing.Point(135, 38);
+            this.KeyWordTB.Location = new System.Drawing.Point(101, 31);
+            this.KeyWordTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.KeyWordTB.Name = "KeyWordTB";
-            this.KeyWordTB.Size = new System.Drawing.Size(315, 22);
+            this.KeyWordTB.Size = new System.Drawing.Size(237, 20);
             this.KeyWordTB.TabIndex = 1;
             // 
             // CipherButton
             // 
-            this.CipherButton.Location = new System.Drawing.Point(16, 70);
+            this.CipherButton.Location = new System.Drawing.Point(12, 57);
+            this.CipherButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CipherButton.Name = "CipherButton";
-            this.CipherButton.Size = new System.Drawing.Size(213, 37);
+            this.CipherButton.Size = new System.Drawing.Size(160, 30);
             this.CipherButton.TabIndex = 2;
             this.CipherButton.Text = "Зашифровать";
             this.CipherButton.UseVisualStyleBackColor = true;
@@ -82,9 +87,10 @@ namespace LAB_9
             // 
             // DecipherButtom
             // 
-            this.DecipherButtom.Location = new System.Drawing.Point(235, 70);
+            this.DecipherButtom.Location = new System.Drawing.Point(176, 57);
+            this.DecipherButtom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DecipherButtom.Name = "DecipherButtom";
-            this.DecipherButtom.Size = new System.Drawing.Size(215, 37);
+            this.DecipherButtom.Size = new System.Drawing.Size(161, 30);
             this.DecipherButtom.TabIndex = 2;
             this.DecipherButtom.Text = "Расшифровать";
             this.DecipherButtom.UseVisualStyleBackColor = true;
@@ -92,17 +98,18 @@ namespace LAB_9
             // 
             // AnswerTB
             // 
-            this.AnswerTB.Location = new System.Drawing.Point(16, 125);
+            this.AnswerTB.Location = new System.Drawing.Point(12, 102);
+            this.AnswerTB.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.AnswerTB.Name = "AnswerTB";
-            this.AnswerTB.Size = new System.Drawing.Size(432, 220);
+            this.AnswerTB.Size = new System.Drawing.Size(325, 180);
             this.AnswerTB.TabIndex = 3;
             this.AnswerTB.Text = "";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 356);
+            this.ClientSize = new System.Drawing.Size(345, 289);
             this.Controls.Add(this.AnswerTB);
             this.Controls.Add(this.DecipherButtom);
             this.Controls.Add(this.CipherButton);
@@ -110,8 +117,9 @@ namespace LAB_9
             this.Controls.Add(this.label2);
             this.Controls.Add(this.OpenTextTB);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Заплаткин Ю.А., Лаб 9";
             this.ResumeLayout(false);
             this.PerformLayout();
 
